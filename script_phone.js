@@ -1,6 +1,6 @@
 navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
     // PeerJS object
-    var peer = new Peer({ key: '7d8b3b19-79b9-4caa-87f9-daf98dcf73c4', debug: 3});
+    var peer = new Peer({ key: 'TypeYourKey', debug: 3});
     //UserAgent
     var ua = 'phone';
     var idList =[];

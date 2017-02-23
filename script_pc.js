@@ -8,7 +8,7 @@ navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia 
 	for(var i=0; i<leng; i++){
 		id += str[Math.floor(Math.random()*strLeng)];
 	}
-    var peer = new Peer(id+'_pc',{ key: '7d8b3b19-79b9-4caa-87f9-daf98dcf73c4', debug: 3});
+    var peer = new Peer(id+'_pc',{ key: 'Type Your key', debug: 3});
     //UserAgent
     var ua = 'pc';
 	var idList = [];
